@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {business} from '@/lib/data';export default function sitemap():MetadataRoute.Sitemap{return ['/','/menu','/halal-food-weligama','/about','/gallery','/reviews','/location','/contact'].map(p=>({url:business.site+p,changeFrequency:p==='/menu'?'weekly':'monthly',priority:p==='/'?1:p==='/menu'?.9:.6}))}
