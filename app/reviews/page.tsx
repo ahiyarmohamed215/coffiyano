@@ -1,3 +1,5 @@
-import type {Metadata} from 'next';import {PageHero,Reviews} from '@/components/Site';
+import type {Metadata} from 'next';
+import {Reviews,PageHero} from '@/components/Site';
+
 export const metadata:Metadata={title:'Google Reviews & Guest Feedback',description:'Read real Google reviews for COFFIYANO, a halal fast-food restaurant in Weligama, Sri Lanka, and find our Google Maps listing.',alternates:{canonical:'/reviews'}};
-export default function ReviewsPage(){return <><PageHero eyebrow="Guest feedback" title="What our guests say." description="Explore genuine Google reviews about COFFIYANO, or share your own experience directly on our Google Maps listing."/><section className="section container"><Reviews/></section></>}
+export default function ReviewsPage(){return <><PageHero eyebrow="Guest feedback" title="The word on the street." description="See what guests have shared about their Coffiyano visits, straight from Google."/><section className="section reviews-page"><div className="container"><Reviews/></div></section></>}
