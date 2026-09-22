@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-labelledby="title desc">
+  <title id="title">Coffiyano Fresh and Tasty</title>
+  <desc id="desc">Coffiyano wordmark with a coffee cup</desc>
+  <g fill="none" stroke="#4B241B" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M93 32c-18 17-18 37 0 54" stroke-width="10"/>
+    <path d="M126 19c-22 23-22 50 0 73" stroke-width="10"/>
+    <path d="M159 32c-18 17-18 37 0 54" stroke-width="10"/>
+    <path d="M54 110h139c0 55-29 83-69 83s-70-28-70-83Z" stroke-width="11"/>
+    <path d="M193 126h22c24 0 26 42-7 42h-17" stroke-width="11"/>
+    <path d="M31 205c51 19 137 19 188 0" stroke="#B66A38" stroke-width="8"/>
+  </g>
+  <text x="237" y="136" fill="#4B241B" font-family="Georgia, 'Times New Roman', serif" font-size="93" font-style="italic" font-weight="700" letter-spacing="-5">Coffiyano</text>
+  <path d="M244 158h387" stroke="#C98047" stroke-width="3"/>
+  <text x="247" y="194" fill="#8F572F" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="8">FRESH &amp; TASTY</text>
+</svg>
